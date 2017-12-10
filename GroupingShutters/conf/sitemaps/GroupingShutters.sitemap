@@ -1,0 +1,15 @@
+sitemap GroupingShutters label="GroupingShutters-Example by Björn Engel"
+{
+	Frame {
+		Switch item=AllShutters
+		Text label="justcoke.github.io/smarthome-examples"
+	}
+
+	Frame label="Shutters" {
+		Switch item=Shutter_Toilet
+		Switch item=Shutter_Kitchen
+		Switch item=Shutter_Living
+		Switch item=Shutter_Bed
+		Switch item=Shutter_Bath
+	}
+}

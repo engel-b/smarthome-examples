@@ -1,0 +1,10 @@
+Group ShuttersGroup
+
+/* Rollershutters */
+Rollershutter Shutter_Toilet         "Toilet [%.0f  %%]"        (ShuttersGroup)
+Rollershutter Shutter_Kitchen        "Kitchen [%.0f  %%]"       (ShuttersGroup)
+Rollershutter Shutter_Living         "Livingroom [%.0f  %%]"    (ShuttersGroup)
+Rollershutter Shutter_Bed            "Bedroom [%.0f  %%]"       (ShuttersGroup)
+Rollershutter Shutter_Bath           "Bath [%.0f  %%]"          (ShuttersGroup)
+
+Rollershutter AllShutters "All shutters"

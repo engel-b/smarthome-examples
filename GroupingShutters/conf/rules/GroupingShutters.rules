@@ -1,0 +1,19 @@
+rule "Set random shutter state"
+when
+    System started or
+    Time cron "0 0/5 * * * ?"
+then
+	logInfo("Shutters", "Initialize shutters")
+    ShuttersGroup?.members.forEach(shutter|
+        postUpdate(shutter, if (Math::random > 0.5) UP else DOWN)
+    )
+end
+
+rule "Grouping shutters"
+when 
+	Item AllShutters received command
+then
+	ShuttersGroup.members.forEach[shutter|
+			shutter.sendCommand(receivedCommand)
+		]
+end

@@ -1,1 +1,1 @@
-# openhab-examples
+Have a look [here](justcoke.github.io/smarthome-examples)
