@@ -13,13 +13,13 @@ Download the config files [here][download-shutters] and extract them into openHA
 
 Grouping rollershutter items works a little bit different from grouping contacts or switches. We need to set up a dummy rollershutter item in an items-file:
 
-{% highlight %}
+{% highlight ruby %}
 Rollershutter AllShutters "All shutters"
 {% endhighlight %}
 
 This virtual item is used to detect commands addressing to an entire group of rollershutters. To bind the functionality we also need a rule that detects the command and forwards it to each member of the group.
 
-{% highlight %}
+{% highlight ruby %}
 rule "Grouping shutters"
 when 
 	Item AllShutters received command
