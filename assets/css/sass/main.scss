@@ -113,6 +113,10 @@ pre {
   clear: both;
 }
 
+.link-de, .link-en {
+  display: list-item;
+}
+
 /* = = = = = = = = = = Header Styles = = = = = = = = = = */
 @import "parts/header";
 

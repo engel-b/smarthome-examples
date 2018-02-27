@@ -38,6 +38,8 @@ analytics: # Google Analytics
 paginate: 8
 paginate_path: /page:num/
 
+languages: ["de", "en"]
+
 # Build settings
 markdown: kramdown
 plugins:
