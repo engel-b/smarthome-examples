@@ -16,6 +16,6 @@ Next I wrote in a textfile a step-by-step-guide where I listed each command I en
 
 In a project at work I learned to love the tool ansible. I had to setup a hole stage with several machines with different jobs. Ansible runs the in xml written installation to one or more machines. Different to puppet or chef it does not need a configuration server.
 
-[picture credits][piccredit]
+[banner picture credits][piccredit]
 
 [piccredit]: https://pixabay.com/de/wer-wie-was-wo-warum-wann-fragen-2985525/

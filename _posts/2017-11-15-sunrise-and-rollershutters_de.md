@@ -56,7 +56,7 @@ end
 
 Das Schließen der Rollläden bei Sonnenuntergang funktioniert ähnlich. 
 
-[Bildnachweis][piccredit]
+[Bildnachweis Banner][piccredit]
 
 [download-shutters]: http:github.com
 [piccredit]: https://pixabay.com/de/sonnenaufgang-see-wasser-182302/

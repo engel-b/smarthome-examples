@@ -46,7 +46,7 @@ Das Playbook installiert
 * owfs (OnewireFilesystem für Onewire-Support)
 * *Dropbox* (Installationsschritte sind zwar vorbereitet, jedoch lassen sich einzelne Schritte nicht automatisieren...)
 
-[Bildnachweis][piccredit]
+[Bildnachweis Banner][piccredit]
 
 [ansible]: {{ "/assets/img/ansible.png" | prepend: site.baseurl}} "Ansible"
 [piccredit]: https://pixabay.com/de/wer-wie-was-wo-warum-wann-fragen-2985525/ 

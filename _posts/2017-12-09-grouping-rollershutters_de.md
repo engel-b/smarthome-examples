@@ -33,7 +33,7 @@ then
 end
 ~~~
 
-[Bildnachweis][piccredit]
+[Bildnachweis Banner][piccredit]
 
 [download-shutters]: https://github.com/justcoke/smarthome-examples/tree/master/GroupingShutters
 [piccredit]: https://pixabay.com/de/fensterl%C3%A4den-fenster-1039996/

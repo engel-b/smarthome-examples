@@ -33,7 +33,7 @@ then
 end
 ~~~
 
-[picture credits][piccredit]
+[banner picture credits][piccredit]
 
 [download-shutters]: http:github.com
 [piccredit]: https://pixabay.com/de/fensterl%C3%A4den-fenster-1039996/
