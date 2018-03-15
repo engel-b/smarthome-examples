@@ -5,7 +5,10 @@ date: 2017-11-15 00:00:00 +0100
 description: This example shows how to open rollershutters on sunrise event. # Add post description (optional)
 img: sunrise.jpg # Add image post (optional)
 tags: [openHAB, shutter, automation, rules, sunrise]
-author: "Bj&ouml;rn Engel" # Add name author (optional)
+author: "Björn Engel" # Add name author (optional)
+lang: en
+ref: sunrise-and-rollershutters
+permalink: sunrise-and-rollershutters
 ---
 I wanted to open my rollershutters when sun is rising. A very simple task I thought. I all need was an **openHAB2** installation at least one configured **rollershutter** and the **astro binding**.  
 

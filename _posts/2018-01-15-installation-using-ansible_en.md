@@ -5,7 +5,10 @@ date: 2018-01-07 00:00:00 +0100
 description: # Add post description (optional)
 img: setup.png # Add image post (optional)
 tags: [openHAB, ansible, automation, installation]
-author: "Bj&ouml;rn Engel" # Add name author (optional)
+author: "Björn Engel" # Add name author (optional)
+lang: en
+ref: installation-using-ansible
+permalink: setup-homeautomation-server-using-ansible
 ---
 When I first setup my homeautomation server, I documented nothing.
 

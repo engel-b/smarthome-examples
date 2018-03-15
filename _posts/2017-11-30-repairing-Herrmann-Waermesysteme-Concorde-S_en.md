@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Repairing Herrmann W&auml;rmesysteme Concorde S
+title: Repairing Herrmann Wärmesysteme Concorde S
 date: 2017-11-30 00:00:00 +0100
 description: Not really smarthome, but home and also smart. # Add post description (optional)
 img: concorde-s/concorde.png # Add image post (optional)
 tags: [heater, diy]
-author: "Bj&ouml;rn Engel" # Add name author (optional)
+author: "Björn Engel" # Add name author (optional)
+lang: en
+ref: repairing-Herrmann-Waermesysteme-Concorde-S
+permalink: repairing-Herrmann-Waermesysteme-Concorde-S
 ---
 When we bought our house there was a nice heating system that also works with solar energy and the fireplace.
 

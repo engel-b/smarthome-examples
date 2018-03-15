@@ -6,6 +6,9 @@ description: # Add post description (optional)
 img: setup.png # Add image post (optional)
 tags: [openHAB, ansible, Automation, Installation]
 author: "Björn Engel" # Add name author (optional)
+lang: de
+ref: installation-using-ansible
+permalink: Hausautomationsserver-mit-Ansible-aufsetzen
 ---
 Als ich das erste Mal meinen Hausautomationsserver einrichtete, dokumentierte ich nichts.
 
@@ -43,8 +46,8 @@ Das Playbook installiert
 * owfs (OnewireFilesystem für Onewire-Support)
 * *Dropbox* (Installationsschritte sind zwar vorbereitet, jedoch lassen sich einzelne Schritte nicht automatisieren...)
 
-[{% translate global.piccredit %}][piccredit]
+[Bildnachweis][piccredit]
 
-[ansible]: {{ "/assets/img/ansible.png" | prepend: site.baseurl_root}} "Ansible"
+[ansible]: {{ "/assets/img/ansible.png" | prepend: site.baseurl}} "Ansible"
 [piccredit]: https://pixabay.com/de/wer-wie-was-wo-warum-wann-fragen-2985525/ 
 [justcoke-ansible-playbook]: https://github.com/justcoke/openHAB-ansible/

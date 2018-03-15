@@ -6,6 +6,9 @@ description: Nicht wirklich SmartHome, aber home und ebenfalls smart. # Add post
 img: concorde-s/concorde.png # Add image post (optional)
 tags: [Heizung, Hermann Wärmesysteme, diy]
 author: "Björn Engel" # Add name author (optional)
+lang: de
+ref: repairing-Herrmann-Waermesysteme-Concorde-S
+permalink: Herrmann-Waermesysteme-Concorde-S-reparieren
 ---
 Als wir unser Haus kauften, war eine nette Heizungsanlage vorhanden, die Wärme nicht nur aus Gas, sondern auch aus Sonnenenergie und - über einen Wärmetauscher im Kamin - festen Brennstoffen produzierte.
 

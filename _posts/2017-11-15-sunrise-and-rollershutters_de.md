@@ -6,6 +6,9 @@ description: Dieses Beispiel zeigt wie Rollläden bei Sonnenaufgang geöffnet we
 img: sunrise.png # Add image post (optional)
 tags: [openHAB, Rollladen, Automation, Regeln, Sonnenaufgang]
 author: "Björn Engel" # Add name author (optional)
+lang: de
+ref: sunrise-and-rollershutters
+permalink: Sonnenaufgang-und-Rolllaeden
 ---
 Ich wollte, dass sich meine Rollläden öffnen, sobald die Sonne aufgegangen ist. Eine sehr einfache Aufgabe, wie ich fand. Alle was ich brauchte war die Installation von **openHAB2**, mindestens einen konfigurierten **Rollladen** and das **Astro-Binding**.
 
@@ -53,7 +56,7 @@ end
 
 Das Schließen der Rollläden bei Sonnenuntergang funktioniert ähnlich. 
 
-[picture credits][piccredit]
+[Bildnachweis][piccredit]
 
 [download-shutters]: http:github.com
 [piccredit]: https://pixabay.com/de/sonnenaufgang-see-wasser-182302/

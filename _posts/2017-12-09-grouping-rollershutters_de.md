@@ -6,10 +6,13 @@ description: dieses Beispiel zeigt, wie Rollladengruppen in openHAB geschaltet w
 img: shutters.png # Add image post (optional)
 tags: [openHAB, Rollladen, Automation, Regeln]
 author: "Björn Engel" # Add name author (optional)
+lang: de
+ref: grouping-rollershutters
+permalink: Rolllaeden-gruppieren
 ---
 Dieses Beispiel zeigt, wie Rollladengruppen in openHAB geschaltet werden können.
 
-Die Konfigurationsdateien können [hier][github-shutters] gefunden werden. Sie brauchen nur in den openHAB Konfigurationsordner entpackt werden.
+Die Konfigurationsdateien können [hier][download-shutters] gefunden werden. Sie brauchen nur in den openHAB Konfigurationsordner entpackt werden.
 
 Gruppieren von Rollläden funktioniert ein wenig anders als das Gruppieren von Kontakten oder Schaltern. Es wird ein Dummy Rollladen Item gebraucht, welches in einer items-Datei:
 
@@ -30,7 +33,7 @@ then
 end
 ~~~
 
-[picture credits][piccredit]
+[Bildnachweis][piccredit]
 
-[github-shutters]: https://github.com/justcoke/smarthome-examples/tree/master/GroupingShutters
+[download-shutters]: https://github.com/justcoke/smarthome-examples/tree/master/GroupingShutters
 [piccredit]: https://pixabay.com/de/fensterl%C3%A4den-fenster-1039996/

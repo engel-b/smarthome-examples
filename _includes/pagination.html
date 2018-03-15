@@ -1,8 +1,5 @@
+{% if post.lang == page.lang %}
 <div class="pagination clearfix">
-site.lang: {{ site.lang }}<br/>
-site.baseurl: {{ site.baseurl }}<br/>
-site.baseurl_root: {{ site.baseurl_root }}<br/>
-site.page.url: {{ site.page.url }}<br/>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-angle-left" aria-hidden="true"></i> Previous</a>
   {% endif %}
@@ -10,3 +7,4 @@ site.page.url: {{ site.page.url }}<br/>
     <a href="{{ paginator.next_page_path }}" class="next">Next <i class="fa fa-angle-right" aria-hidden="true"></i></a>
   {% endif %}
 </div>
+{% endif %}
