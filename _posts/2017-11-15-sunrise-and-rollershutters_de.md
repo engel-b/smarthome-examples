@@ -10,9 +10,9 @@ lang: de
 ref: sunrise-and-rollershutters
 permalink: Sonnenaufgang-und-Rolllaeden
 ---
-Ich wollte, dass sich meine Rollläden öffnen, sobald die Sonne aufgegangen ist. Eine sehr einfache Aufgabe, wie ich fand. Alle was ich brauchte war die Installation von **openHAB2**, mindestens einen konfigurierten **Rollladen** and das **Astro-Binding**.
+Ich wollte, dass sich meine Rollläden öffnen, sobald die Sonne aufgegangen ist. Eine sehr einfache Aufgabe, wie ich fand. Alles, was ich brauchte, war die Installation von **openHAB2**, mindestens einen konfigurierten **Rollladen** and das **Astro-Binding**.
 
-Eine Regel, um bei Sonnanaufgang de Rollladen zu öffnen, könnte so aussehen 
+Eine Regel, um bei Sonnanaufgang den Rollladen zu öffnen, könnte so aussehen 
 
 ~~~ ruby
 rule "Rollershutter up on sunrise"
@@ -25,25 +25,21 @@ end
 
 Aber...
 
-... im Sommer geht die Sonne bereits sehr früh am Morgen auf und ein Öffnen der Rollläden könnte mich wecken lange bevor ich aufstehen müsste. Andererseits beginnt der Tag im Winter sehr spät. Die Lösung sollte ein Zeitfenster sein: Ich möchte, dass der Rollladen sich bei Sonnenaufgang öffnet, aber nicht vor 6:00 Uhr und nicht nach 8:30 Uhr.
+... im Sommer geht die Sonne bereits sehr früh am Morgen auf und ein Öffnen der Rollläden könnte mich wecken lange bevor ich aufstehen müsste. Andererseits beginnt der Tag im Winter sehr spät. Die Lösung sollte ein Zeitfenster sein: Ich möchte, dass der Rollladen sich bei Sonnenaufgang öffnet, aber nicht vor 7:00 Uhr und nicht nach 8:30 Uhr.
 
-Hierfür erstellen wir ein spezielles Astro-Thing...
+Hierfür erstelle ich ein spezielles Astro-Thing...
   
 ~~~ ruby
 astro:sun:shutter  [ geolocation="52.520824,13.409414", interval=300] {
     Channels:
         Type start : rise#start [
-            earliest="06:00",
+            earliest="07:00",
             latest="08:30"
-        ]
-        Type end : set#end [
-            earliest="16:30",
-            latest="22:00"
         ]
 }
 ~~~
 
-... auf das wir dann in einer Regel reagieren können ...
+... auf das ich dann in einer Regel reagieren kann ...
 
 ~~~ ruby
 rule "Rollershutter up on sunrise"
@@ -54,9 +50,11 @@ then
 end
 ~~~
 
-Das Schließen der Rollläden bei Sonnenuntergang funktioniert ähnlich. 
+Das Schließen der Rollläden bei Sonnenuntergang funktioniert ähnlich.
+
+Beispieldateien zum Herunterladen [hier][download-sunrise-example].
 
 [Bildnachweis Banner][piccredit]
 
-[download-shutters]: http:github.com
+[download-sunrise-example]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/justcoke/smarthome-examples/trunk/master/RollershutterUpOnSunrise
 [piccredit]: https://pixabay.com/de/sonnenaufgang-see-wasser-182302/

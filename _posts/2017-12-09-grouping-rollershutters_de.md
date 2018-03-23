@@ -35,5 +35,5 @@ end
 
 [Bildnachweis Banner][piccredit]
 
-[download-shutters]: https://github.com/justcoke/smarthome-examples/tree/master/GroupingShutters
+[download-shutters]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/justcoke/smarthome-examples/trunk/master/GroupingShutters
 [piccredit]: https://pixabay.com/de/fensterl%C3%A4den-fenster-1039996/
