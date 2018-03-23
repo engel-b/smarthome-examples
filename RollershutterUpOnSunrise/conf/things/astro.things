@@ -1,0 +1,11 @@
+astro:sun:shutter  [ geolocation="52.520824,13.409414", interval=300] {
+    Channels:
+        Type rangeEvent : rise#event [
+            earliest="07:00",
+            latest="08:30"
+        ]
+        Type rangeEvent : set#event [
+            earliest="19:00",
+            latest="22:00"
+        ]
+}

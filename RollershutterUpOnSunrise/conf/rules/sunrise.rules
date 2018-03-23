@@ -1,0 +1,14 @@
+rule "Rollershutter up on sunrise"
+when
+	Channel 'astro:sun:shutter:rise#event' triggered START
+then
+	shutter.sendCommand(UP)
+end
+
+rule "Rollershutter down on sunset"
+when
+	Channel 'astro:sun:shutter:set#event' triggered END
+then
+	shutter.sendCommand(DOWN)
+end
+
