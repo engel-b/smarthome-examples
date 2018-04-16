@@ -3,7 +3,8 @@ layout: post
 title: Rollläden gruppieren
 date: 2017-12-09 00:00:00 +0100
 description: dieses Beispiel zeigt, wie Rollladengruppen in openHAB geschaltet werden können # Add post description (optional)
-img: shutters.png # Add image post (optional)
+img: banner.png # Add image post (optional)
+imgfolder: assets/img/grouping-shutters/
 tags: [openHAB, Rollladen, Automation, Regeln]
 author: "Björn Engel" # Add name author (optional)
 lang: de

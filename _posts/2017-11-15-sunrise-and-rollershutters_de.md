@@ -3,7 +3,8 @@ layout: post
 title: Sonnenaufgang und Rollläden
 date: 2017-11-15 00:00:00 +0100
 description: Dieses Beispiel zeigt wie Rollläden bei Sonnenaufgang geöffnet werden können. # Add post description (optional)
-img: sunrise.png # Add image post (optional)
+img: banner.png # Add image post (optional)
+imgfolder: assets/img/sunrise/
 tags: [openHAB, Rollladen, Automation, Regeln, Sonnenaufgang]
 author: "Björn Engel" # Add name author (optional)
 lang: de

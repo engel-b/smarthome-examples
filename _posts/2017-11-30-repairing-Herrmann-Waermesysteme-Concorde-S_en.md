@@ -3,7 +3,8 @@ layout: post
 title: Repairing Herrmann Wärmesysteme Concorde S
 date: 2017-11-30 00:00:00 +0100
 description: Not really smarthome, but home and also smart. # Add post description (optional)
-img: concorde-s/concorde.png # Add image post (optional)
+img: banner.png # Add image post (optional)
+imgfolder: assets/img/concorde-s/
 tags: [heater, diy]
 author: "Björn Engel" # Add name author (optional)
 lang: en
@@ -29,6 +30,6 @@ All my concorde's modules have a similar pcb and all of them have that capacitor
 
 
 [mikrocontroller-net]: https://www.mikrocontroller.net/topic/287329
-[concorde-module]: {{ "/assets/img/concorde-s/concorde-s-module.png" | prepend: site.baseurl_root }} "The module"
-[concorde-capacitor]: {{ "/assets/img/concorde-s/concorde-s-capacitor.png" | prepend: site.baseurl_root }} "The module's capacitor"
-[capacitor]: {{ "/assets/img/concorde-s/capacitor.png" | prepend: site.baseurl_root }} "The new capacitor"
+[concorde-module]: {{ "concorde-s-module.png" | prepend: page.imgfolder | prepend: site.baseurl }} "The module"
+[concorde-capacitor]: {{ "concorde-s-capacitor.png" | prepend: page.imgfolder | prepend: site.baseurl}} "The module's capacitor"
+[capacitor]: {{ "capacitor.png" | prepend: page.imgfolder | prepend: site.baseurl}} "The new capacitor"

@@ -4,6 +4,7 @@ title: Setup homeautomation server using ansible
 date: 2018-01-07 00:00:00 +0100
 description: # Add post description (optional)
 img: setup.png # Add image post (optional)
+imgfolder: assets/img/ansible/
 tags: [openHAB, ansible, automation, installation]
 author: "Björn Engel" # Add name author (optional)
 lang: en

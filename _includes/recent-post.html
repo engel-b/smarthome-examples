@@ -4,7 +4,7 @@
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts offset:0 limit:4 %}
       {% if post.title %}
-        <a href="{{site.baseurl}}{{post.url}}" class="recent-item" style="background: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}}) center no-repeat; background-size: cover;"><span>{{ post.title }}</span></a>
+        <a href="{{site.baseurl}}{{post.url}}" class="recent-item" style="background: url({{post.imgfolder | prepend: "/" | prepend: site.baseurl | append : post.img}}) center no-repeat; background-size: cover;"><span>{{ post.title }}</span></a>
       {% endif %}
     {% endfor %}
   </div>

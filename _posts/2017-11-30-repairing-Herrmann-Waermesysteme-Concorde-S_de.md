@@ -3,7 +3,8 @@ layout: post
 title: Herrmann Wärmesysteme Concorde S reparieren
 date: 2017-11-30 00:00:00 +0100
 description: Nicht wirklich SmartHome, aber home und ebenfalls smart. # Add post description (optional)
-img: concorde-s/concorde.png # Add image post (optional)
+img: banner.png # Add image post (optional)
+imgfolder: assets/img/concorde-s/
 tags: [Heizung, Hermann Wärmesysteme, diy]
 author: "Björn Engel" # Add name author (optional)
 lang: de
@@ -31,6 +32,6 @@ Alle Module meine Concorde-Heizkessels haben ähnliche Platinen und alle haben d
 
 
 [mikrocontroller-net]: https://www.mikrocontroller.net/topic/287329
-[concorde-module]: {{ "/assets/img/concorde-s/concorde-s-module.png" | prepend: site.baseurl_root }} "Das Modul"
-[concorde-capacitor]: {{ "/assets/img/concorde-s/concorde-s-capacitor.png" | prepend: site.baseurl_root }} "Der Kondensator im Modul"
-[capacitor]: {{ "/assets/img/concorde-s/capacitor.png" | prepend: site.baseurl_root }} "Der neue Kondensator"
+[concorde-module]: {{ "concorde-s-module.png" | prepend: page.imgfolder | prepend: site.baseurl}} "Das Modul"
+[concorde-capacitor]: {{ "concorde-s-capacitor.png" | prepend: page.imgfolder | prepend: site.baseurl}} "Der Kondensator im Modul"
+[capacitor]: {{ "capacitor.png" | prepend: page.imgfolder | prepend: site.baseurl}} "Der neue Kondensator"

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Günstige Wifi-Steckdose von OBI als Alternative zu Sonoff&nbsp;S20
+title: Cheap OBI-Wifi-Socket as alternative to Sonoff&nbsp;S20
 date: 2018-03-23 00:00:00 +0100
 description: Dieser Beitrag beschreibt die notwendigen Anpassungen an der preiswerten OBI-Wifi-Steckdose, um diese per Mqtt in die Hausautomation zu integrieren.
 img: banner.jpg
 imgfolder: assets/img/obi-wifi-socket/
 tags: [openHAB, Automation, Mqtt, Diy]
 author: "Björn Engel"
-lang: de
+lang: en
 ref: obi-wifi-socket
-permalink: OBI-Wifi-Steckdose
+permalink: OBI-Wifi-Socket
 ---
 In der c't 02/2018 entdeckte ich einen [Artikel][ct-article] zu einer günstigen Wifi-Steckdose mit einem umprogrammierbaren ESP8266 - die Sonoff S20. Nachdem ich den Artikel gelesen hatte, habe ich gleich eine S20 bestellt und dann umprogrammiert. Ich war und bin zufrieden.
 
