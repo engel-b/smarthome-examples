@@ -4,7 +4,7 @@ title: Cheap OBI-Wifi-Socket as alternative to Sonoff&nbsp;S20
 date: 2018-03-23 00:00:00 +0100
 description: Dieser Beitrag beschreibt die notwendigen Anpassungen an der preiswerten OBI-Wifi-Steckdose, um diese per Mqtt in die Hausautomation zu integrieren.
 img: banner.jpg
-imgfolder: assets/img/obi-wifi-socket/
+imgfolder: /assets/img/obi-wifi-socket/
 tags: [openHAB, Automation, Mqtt, Diy]
 author: "Björn Engel"
 lang: en

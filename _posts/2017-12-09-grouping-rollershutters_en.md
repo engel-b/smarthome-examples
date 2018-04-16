@@ -4,7 +4,7 @@ title: Grouping rollershutters
 date: 2017-12-09 00:00:00 +0100
 description: This example shows how to group rollershutters. # Add post description (optional)
 img: banner.png # Add image post (optional)
-imgfolder: assets/img/grouping-shutters/
+imgfolder: /assets/img/grouping-shutters/
 tags: [openHAB, shutter, automation, rules]
 author: "Björn Engel" # Add name author (optional)
 lang: en

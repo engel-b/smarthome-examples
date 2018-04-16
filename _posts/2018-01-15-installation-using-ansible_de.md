@@ -4,7 +4,7 @@ title: Hausautomationsserver mit Ansible aufsetzen
 date: 2018-01-07 00:00:00 +0100
 description: # Add post description (optional)
 img: setup.png # Add image post (optional)
-imgfolder: assets/img/ansible/
+imgfolder: /assets/img/ansible/
 tags: [openHAB, ansible, Automation, Installation]
 author: "Björn Engel" # Add name author (optional)
 lang: de

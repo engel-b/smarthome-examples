@@ -4,7 +4,7 @@ title: Repairing Herrmann Wärmesysteme Concorde S
 date: 2017-11-30 00:00:00 +0100
 description: Not really smarthome, but home and also smart. # Add post description (optional)
 img: banner.png # Add image post (optional)
-imgfolder: assets/img/concorde-s/
+imgfolder: /assets/img/concorde-s/
 tags: [heater, diy]
 author: "Björn Engel" # Add name author (optional)
 lang: en

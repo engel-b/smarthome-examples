@@ -4,7 +4,7 @@ title: Sunrise and rollershutters
 date: 2017-11-15 00:00:00 +0100
 description: This example shows how to open rollershutters on sunrise event. # Add post description (optional)
 img: banner.png # Add image post (optional)
-imgfolder: assets/img/sunrise/
+imgfolder: /assets/img/sunrise/
 tags: [openHAB, shutter, automation, rules, sunrise]
 author: "Björn Engel" # Add name author (optional)
 lang: en
