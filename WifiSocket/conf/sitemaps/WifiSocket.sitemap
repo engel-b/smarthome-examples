@@ -1,0 +1,6 @@
+sitemap WifiSocket label="WifiSocket-Example by Björn Engel"
+{
+	Frame {
+		Switch item=WifiSocket
+	}
+}

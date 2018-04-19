@@ -1,1 +1,0 @@
-Switch                          WifiSocket     "WifiSocket" { mqtt=">[mosquitto:cmnd/wifisocket/POWER:command:*:default], <[mosquitto:stat/wifisocket/POWER:state:default]" }
