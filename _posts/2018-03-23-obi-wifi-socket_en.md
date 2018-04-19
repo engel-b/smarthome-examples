@@ -97,15 +97,10 @@ The configuration needs to be done in the webinterface. Klicks to "Einstellungen
 The installation and configuration of a mqtt-broker is not this article's part.
 
 ~~~ ruby
-rule "Rollershutter up on sunrise"
-when 
-	Item Sunrise_Event changes from 0 to 1
-then
-	shutter.sendCommand(UP)
-end
+Switch WifiSocket "WifiSocket" { mqtt=">[mosquitto:cmnd/wifisocket/POWER:command:*:default], <[mosquitto:stat/wifisocket/POWER:state:default]" }
 ~~~
 
-Example configuration to [download][download-mqtt-tasmota].
+Example configuration to [download][download-example].
 
 [banner picture credits][piccredit]
 
@@ -115,7 +110,7 @@ Example configuration to [download][download-mqtt-tasmota].
 [atom]: https://atom.io
 [platform-io]: https://platformio.org/get-started/ide?install=atom
 [tasmota-release]: https://github.com/arendst/Sonoff-Tasmota/releases
-[download-mqtt-tasmota]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/justcoke/smarthome-examples/trunk/master/TasmotaMqttSocket
+[download-example]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/justcoke/smarthome-examples/trunk/master/WifiSocket
 
 [case]: {{ "case.jpg" | prepend: page.imgfolder | prepend: site.baseurl }} "Gehäuse"
 [security-screws]: {{ "security-screws.jpg" | prepend: page.imgfolder | prepend: site.baseurl }} "Sicherheitsschrauben"
