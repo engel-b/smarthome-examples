@@ -7,10 +7,10 @@ img: banner.png # Add image post (optional)
 imgfolder: /assets/img/robonect/
 tags: [openHAB, Rasenmäher, R40Li, Robonect]
 author: "Björn Engel" # Add name author (optional)
-lang: de
+lang: en
 ref: Robonect
 ---
 
-[Bildnachweis Banner][piccredit]
+[banner picture credits][piccredit]
 
 [piccredit]: https://pixabay.com/de/schaf-lamm-lentje-weide-2219836/
