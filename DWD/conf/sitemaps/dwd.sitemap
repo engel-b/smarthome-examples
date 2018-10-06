@@ -1,0 +1,32 @@
+sitemap dwd label="Dwd"
+{
+	Frame label=" "	{
+		Text item=DWD_Warnung_headline	label=""  valuecolor=[DWD_Warnung_level==1="#ffff00", DWD_Warnung_level==2="#ffa500", DWD_Warnung_level==3="#ff0000", DWD_Warnung_level==4="#800000", DWD_Warnung_level==10="#ff00ff"]
+		Text item=DWD_Warnung_level  visibility=[DWD_Warnung_level!=0]	valuecolor=[1="#ffff00", 2="#ffa500", 3="#ff0000", 4="#800000", 10="ff00ff"]
+		Text item=DWD_Warnung_start  visibility=[DWD_Warnung_start!="NULL"]
+		Text item=DWD_Warnung_end  icon="null"  visibility=[DWD_Warnung_end!="NULL"]
+	}
+	Frame label=" " {
+		Text item=DWD_Warnung_description  visibility=[DWD_Warnung_description!="-"]
+			Text item=DWD_Warnung_instruction	icon="null"  visibility=[DWD_Warnung_instruction!="-"]
+	}
+	Frame label=" " {
+		Text item=DWD_Warnung_event  visibility=[DWD_Warnung_event!="-"]  valuecolor=[DWD_Warnung_level==1="#ffff00", DWD_Warnung_level==2="#ffa500", DWD_Warnung_level==3="#ff0000", DWD_Warnung_level==4="#800000", DWD_Warnung_level==10="#ff00ff"]
+	}
+	Frame label="" {
+		Selection item=DWDSelectedSite label="Wetter" icon="dwd" mappings=[1="Aktuell", 2="Regenradar", 3="Heute", 4="Morgen", 5="Übermorgen", 6="Unwetter", 7="Pollenflug", 8="Warnungen"]
+	}
+	Frame label=" "	visibility=[DWDSelectedSite==8] {
+		Text item=DWD_Warnung_headline		label=""													valuecolor=[DWD_Warnung_level==1="#ffff00", DWD_Warnung_level==2="#ffa500", DWD_Warnung_level==3="#ff0000", DWD_Warnung_level==4="#800000"]
+		Text item=DWD_Warnung_level							visibility=[DWD_Warnung_level!=0]			valuecolor=[1="#ffff00", 2="#ffa500", 3="#ff0000", 4="#800000"]
+		Text item=DWD_Warnung_start							visibility=[DWD_Warnung_start!="NULL"]
+		Text item=DWD_Warnung_end			icon="null"		visibility=[DWD_Warnung_end!="NULL"]
+	}
+	Frame label=" " 	visibility=[DWDSelectedSite==8] {
+		Text item=DWD_Warnung_description					visibility=[DWD_Warnung_description!="-"]
+		Text item=DWD_Warnung_instruction	icon="null"		visibility=[DWD_Warnung_instruction!="-"]
+	}
+	Frame label=" " 	visibility=[DWDSelectedSite==8] {
+		Text item=DWD_Warnung_event							visibility=[DWD_Warnung_event!="-"]			valuecolor=[DWD_Warnung_level==1="#ffff00", DWD_Warnung_level==2="#ffa500", DWD_Warnung_level==3="#ff0000", DWD_Warnung_level==4="#800000"]
+	}
+}

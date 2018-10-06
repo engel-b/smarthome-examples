@@ -1,0 +1,7 @@
+DateTime	DWD_Warnung_start			"von: [%1$td.%1$tm.%1$tY %1$tH:%1$tM Uhr]"	<time>			
+DateTime	DWD_Warnung_end				"bis: [%1$td.%1$tm.%1$tY %1$tH:%1$tM Uhr]"	<time>
+Number		DWD_Warnung_level			"Warnstufe: [MAP(DWD_Warnung.map):%s]"		<dwdwarnung>
+String		DWD_Warnung_description		"Beschreibung: [%s]"						<warnung>
+String		DWD_Warnung_headline		"Betreff: [%s]"								<warnung>
+String		DWD_Warnung_instruction		"Hinweis: [%s]"								<warnung>
+String		DWD_Warnung_event			"Event: [%s]"								<warnung>

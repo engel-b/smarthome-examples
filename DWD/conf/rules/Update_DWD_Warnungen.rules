@@ -1,0 +1,32 @@
+rule "DWD Warnungen"
+when
+//	Time cron "0 */5 * ? * *"  //every 5 Minutes
+	Time cron "0 * * ? * *"    //every 1 Minute
+then
+	var String jsonString = sendHttpGetRequest("https://www.dwd.de/DWD/warnungen/warnapp/json/warnings.json")
+	var String newString = transform("JS", "get_DWD_warnings_json.js", jsonString)
+	if (newString !="NULL") {
+		var String newStart = transform("JSONPATH", "$.start", newString)
+		var DateTime timestart = new DateTime(Long::parseLong(newStart))
+		DWD_Warnung_start.postUpdate(new DateTimeType(timestart.toString))
+		var String newEnd = transform("JSONPATH", "$.end", newString)
+		if (newEnd !==null) {
+			var DateTime timeend = new DateTime(Long::parseLong(newEnd))
+			DWD_Warnung_end.postUpdate(new DateTimeType(timeend.toString))
+		}
+		DWD_Warnung_level.postUpdate(transform("JSONPATH","$.level",newString))
+		DWD_Warnung_description.postUpdate(transform("JSONPATH","$.description",newString))
+		DWD_Warnung_headline.postUpdate(transform("JSONPATH","$.headline",newString))
+		DWD_Warnung_instruction.postUpdate(transform("JSONPATH","$.instruction",newString))
+		DWD_Warnung_event.postUpdate(transform("JSONPATH","$.event",newString))
+	}
+	if (newString =="NULL") {
+		DWD_Warnung_start.postUpdate("NULL")
+		DWD_Warnung_end.postUpdate("NULL")
+		DWD_Warnung_level.postUpdate(0)
+		DWD_Warnung_description.postUpdate("-")
+		DWD_Warnung_headline.postUpdate("derzeit keine Warnungen")
+		DWD_Warnung_instruction.postUpdate("-")
+		DWD_Warnung_event.postUpdate("-")	
+	}
+end
