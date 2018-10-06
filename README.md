@@ -1,1 +1,1 @@
-Have a look [here](justcoke.github.io/smarthome-examples)
+Have a look [here](http://justcoke.github.io/smarthome-examples)
