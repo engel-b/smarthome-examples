@@ -1,4 +1,7 @@
 <div class="pagination clearfix">
+  1{{ paginator.next_page_path }}<br>
+  2{{ site.url }}<br>
+  3{{ site.baseurl }}<br>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-angle-left" aria-hidden="true"></i> Previous</a>
   {% endif %}
