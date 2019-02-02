@@ -4,7 +4,10 @@ layout: default
 <div class="flex-container">
   {% include header.html %}
   <div class="content wrapper">
-    lang: {{page.lang}}
+    {% assign posts=paginator.posts | where:"lang", page.lang %}
+	  {% for post in posts %}
+      o - {{post.title}} - {{post.url}} - {{post.lang}}<br/>
+    {% endfor %}
 	<ol class="post-card-box clearfix">
 	  {% assign posts=paginator.posts | where:"lang", page.lang %}
 	  {% for post in posts %}
