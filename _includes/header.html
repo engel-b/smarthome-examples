@@ -9,15 +9,11 @@
         <ul>
           <li><a href="{{site.baseurl | where:"lang", page.lang}}/">Blog</a></li>
           <li><a href="{{site.baseurl}}/about">About</a></li>
-          
+
+          # TODO: wenn index, dann anders handeln, sonst
           {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
           {% for post in posts %}
             <li><a class="link-{{ post.lang }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.lang }}</a></li>
-          {% endfor %}
-
-          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-          {% for page in pages %}
-            <li><a class="link-{{ page.lang }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
           {% endfor %}
         </ul>
       </nav>
