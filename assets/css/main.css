@@ -887,8 +887,14 @@ pre code {
   clear: both;
 }
 
-.link-de, .link-en {
-  display: list-item;
+.page-lang {
+}
+
+.link-de {
+
+}
+
+.link-en {
 }
 
 /* = = = = = = = = = = Header Styles = = = = = = = = = = */
