@@ -12,6 +12,12 @@ layout: default
         <div class="header-page">
           <h1 class="page-title">{{page.title}}</h1>
           <div class="page-date"><time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time></div>
+          <div class="page-lang">
+            {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+            {% for post in posts %}
+              <a class="link-{{ post.lang }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.lang }}</a>
+            {% endfor %}
+          </div>
         </div>
         {{page.content | markdownify}}
         <div class="page-footer">
