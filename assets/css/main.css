@@ -888,13 +888,19 @@ pre code {
 }
 
 .page-lang {
+  width: 200px;
+  height: 32px;
+  float: left;
 }
 
-.link-de {
-
+.page-lang ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.link-en {
+.page-lang ul li {
+  display: inline;
 }
 
 /* = = = = = = = = = = Header Styles = = = = = = = = = = */
