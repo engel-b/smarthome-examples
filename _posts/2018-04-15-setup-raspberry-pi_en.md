@@ -11,6 +11,7 @@ lang: en
 ref: raspberry-pi-setup
 permalink: CheatSheet-Raspberry-Pi-Setup
 ---
+
 * [download][raspbian-stretch] and unarchive actual raspbian-image
 * [download][win32-diskimager] and install Win32DiskImager
 * start Win32DiskImager

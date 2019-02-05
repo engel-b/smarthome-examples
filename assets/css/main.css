@@ -888,9 +888,9 @@ pre code {
 }
 
 .page-lang {
-  width: 200px;
+  width: 100px;
   height: 32px;
-  float: left;
+  float: right;
 }
 
 .page-lang ul {

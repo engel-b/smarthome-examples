@@ -11,6 +11,7 @@ lang: de
 ref: raspberry-pi-setup
 permalink: Spickzettel-Raspberry-Pi-Setup
 ---
+
 * aktuelles Raspbian-Image [herunterladen][raspbian-stretch] und entpacken
 * Win32DiskImager [herunterladen][win32-diskimager] und installieren
 * Win32DiskImager starten
