@@ -7,7 +7,7 @@ img: banner.png
 imgfolder: /assets/img/smarthomeideas/
 tags: []
 author: "Björn Engel"
-lang: de
+lang: en
 ref: SmartHomeIdeas
 ---
 Immer wieder werde ich gefragt, was man denn im Smart Home so automatisieren kann. Der Grund liegt darin, dass viele Leute mit denen ich mich unterhalte, keinen Vorteil in der Vernetzung der Geräte sehen und dem ganzen eher pessimistisch gegenüber stehen. Wenn ich dann anfange Beispiele aufzuzählen, heißt es immer, dass das nichts mit "smart" zu tun hat... Ich antworte dann, dass "smart" sich hier weniger auf die Komponenten im Smart Home bezieht, sondern sehr viel mehr auf denjenigen, der sich zuvor die Gedanken über die teilweise recht komplexen Regelwerke gemacht hat, um verschiedene Ziele wie Energieeinsparung, Sicherheit oder Komfortgewinn zu erreichen.

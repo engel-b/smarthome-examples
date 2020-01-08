@@ -7,7 +7,7 @@ img: banner.jpg
 imgfolder: /assets/img/speedcam/
 tags: [raspberry pi, speedcam]
 author: "Björn Engel"
-lang: de
+lang: en
 ref: speedcam
 permalink: SPEED-CAMERA-auf-Raspberry-Pi
 ---
