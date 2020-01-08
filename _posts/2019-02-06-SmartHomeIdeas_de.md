@@ -16,7 +16,7 @@ Ich habe hier einiges zusammen getragen, was als Ideengeber dienen soll.
 
 * der Lichtschalter eines Raumes schaltet nicht nur eine Lampe, sondern die komplette Beleuchtung im gesamten Raum
 * ein längeres Drücken oder Doppeltippen des Lichtschalter schaltet nicht nur das Licht, sondern auch die elektrischen Geräte im Raum (Fernseher, Spielkonsole, Radio, ...)
-* klingelt es an der Tür, blinken die Lichter in der Garage
+* klingelt es an der Tür, blinken die Lichter im Wohnzimmer
 * der Weg zwischen Gartentor und Haustür wird automatisch beleuchtet, wenn sich Gartentor oder Haustür öffnet - natürlich nur, wenn die Lichtverhätnisse dies erforderlich machen
 * ein "alles aus"-Schalter schaltes mit einem Druck alle Lichter im gesamten Haus aus
 * ein Schalter an der Haus-/Wohnungstür schaltet das Smart Home in den Status "abwesend" um die Lichter und unnötige Verbraucher auszuschalten
@@ -25,11 +25,11 @@ Ich habe hier einiges zusammen getragen, was als Ideengeber dienen soll.
 * beim Verlassen des Hauses werden Vorder- und Hintertüren verriegelt
 * die Weihnachtsbelechtung im Garten schaltet sich automatisch bei Sonnenuntergang ein- und bei Sonnenaufgang wieder aus
 * die Nachttischlampe leuchtet gerade so hell, um bequem zu lesen
-* nachts liefern die Lampe gerade genug Licht, um den Weg zur Toilette oder dem Kühlschrank zu finden, ohne geblendet zu werden oder andere Familienmitglieder zu stören
+* nachts liefern die Lampen gerade genug Licht, um den Weg zur Toilette oder dem Kühlschrank zu finden, ohne geblendet zu werden oder andere Familienmitglieder zu stören
 * das Licht schaltet sich automatisch jeden Morgen aus, wenn die Kinder in die Schule gehen
 * smarte Lampen gleichen sinkendes Tageslicht im Raum durch Erhöhung des Beleuchtungsniveaus aus (z.B. bei Sonnenuntergang oder starker Bewölkung)
 * Haushaltsgeräte wie Waschmaschine, Trockner oder Geschirrspüler melden selbständig, dass sie fertig sind
-* die Rollläden fahren bei Sonnenuntergang runter, bei Sonnenaufgang Hauptbadebodenschalter
+* die Rollläden fahren bei Sonnenuntergang runter, bei Sonnenaufgang hoch
 * ist ein Fenster offen und es fängt an zu regnen, fährt der Rollladen herunter, um zu verhindern, dass es herein regnet
 * klingelt es an der Tür wird das Fernsehprogramm unterbrochen, ein Bild der Außenkamera erscheint
 * auch wenn das Telefon klingelt, wird das Fernsehprogramm auf lautlos geschaltet und eine Infobox mit dem Namen des Anrufers poppt auf
@@ -40,34 +40,34 @@ Ich habe hier einiges zusammen getragen, was als Ideengeber dienen soll.
 * eine "Party"-Szene schafft auf Knopfdruck ein Ambiente mit Beleuchtung der wichtigsten dekorativen Elemente und einer individuellen Playlist
 * eine "Filmabend"-Szene fährt die Rollläden runter, dimmt die Beleuchtung auf 50%, fährt die Leinwand aus, startet Beamer und Soundsystem
 * beim Start des Filmes wird die Beleuchtung sanft auf 0 gedimmt
-*	der Kinderfernseher wird in Lautstärke, Programmwahl und Nutzungszeiten beschränkt
+* der Kinderfernseher wird in Lautstärke, Programmwahl und Nutzungszeiten beschränkt
 * die Kinder werden per Push-Benachrichtigung auf dem iPad ans Schlafengehen erinnert und ums Ausschalten des Fernsehers gebeten - die Lichter im Zimmer blinken als Warnung bevor sich 10 Minuten später die Fernseher automatisch ausschalten
 * Benachrichtigung, wenn die Haustür länger als fünf Minuten offen steht
-*	die Katze wird vom SmartHome erkannt und deaktiviert das Sicherheitssystem vorübergehend wenn die Katzenklappe genutzt wird
-*	die Beleuchtung (auch Dusche) blinkt dreimal, beim Öffnen einer Außentür
+* die Katze wird vom SmartHome erkannt und deaktiviert das Sicherheitssystem vorübergehend wenn die Katzenklappe genutzt wird
+* die Beleuchtung (auch Dusche) blinkt dreimal, beim Öffnen einer Außentür
 * Anwesenheitssimulation, die das Haus besetzt erscheinen lässt
 * temporärer "Gästeschlüssel", um Gästen Zugang zum Haus zu geben und über deren Ankunft zu informieren
 * ein Timer schließt das Garagentor, wenn es länger als 10 Minuten geöffnet bleibt und der Bewegungssensor keine Arbeiten in der Garage erkennt
-*	Fahrweg-Bewegungssensor – wird eine Bewegung erfasst, gehen die Kameras in die Ausgangsposition und starten die Aufzeichnung und die Außenbeleuchtung wird eingeschaltet
+* Einfahrt-Bewegungssensor – wird eine Bewegung erfasst, gehen die Kameras in die Ausgangsposition und starten die Aufzeichnung und die Außenbeleuchtung wird eingeschaltet
 * die Außentüren verriegeln sich drei Minuten nach dem Schließen des Garagentors, wenn Sie zur Arbeit gehen
-*	beim Öffnen der Hintertür zur Garage, schaltet sich die Innenbeleuchtung der Garage ein, wenn die natürliche Beleuchtung unter 50% liegt
+* beim Öffnen der Hintertür zur Garage, schaltet sich die Innenbeleuchtung der Garage ein, wenn die natürliche Beleuchtung unter 50% liegt
 * ein Sensor im Briefkasten teilt dem SmartHome die Postzustellung mit, wenn Post zugestellt wird, wird über das Audiosystem "Sie haben Post" im ganzen Haus abgespielt, eine Push-Benachrichtgung erfolgt und eine Lampe am Eingang signalisiert den Füllstand
 * Benachrichtigung bei einem problematischen Ereignis, wie z.B. einem Rohrleck im Heizungskeller, Rauchmelder
 * per Benachrichtigung wird man an das Herausstellen der richtigen Mülltonne erinnert
-*	wenn die Kinder von der Schule nach Hause kommen gibt es eine Benachrichtigung
-*	wird der Spirituosenschrank geöffnet gibt es eine Benachrichtigung
-*	ebenso gibt es eine Benachrichtigung, wenn eine Bewegung in einem bestimmten Raum (z.B. Ihrem Heimbüro oder dem Weinkeller) festgestellt wird
+* wenn die Kinder von der Schule nach Hause kommen gibt es eine Benachrichtigung
+* wird der Spirituosenschrank geöffnet gibt es eine Benachrichtigung
+* ebenso gibt es eine Benachrichtigung, wenn eine Bewegung in einem bestimmten Raum (z.B. Ihrem Heimbüro oder dem Weinkeller) festgestellt wird
 * die Schichtzeiten werden im Kalender gepflegt, die vom Wecker automatisch herangezogen werden um die Weckzeit entsprechend anzupassen
   * außerdem weckt der Wecker nicht nur mit Musik, sondern fährt über einen entsprechenden Zeitraum die Rollläden hoch oder öffnet die Vorhänge
   * ist es draußen jedoch dunkel, wird der Sonnenaufgang mit RGB-Lampen simuliert
 * Benachrichtigung, wenn es Zeit ist, Medikamente einzunehmen
-*	Erinnerungsmeldungen für Wartungsarbeiten (HLK-Filter, Zentralvakuum-Jahresfilter, Messerwechsel am Mähroboter, ...)
+* Erinnerungsmeldungen für Wartungsarbeiten (HLK-Filter, Staubsauganlagen-Jahresfilter, Messerwechsel am Mähroboter, ...)
 * über ein Tastenfeld an der Wand lässt sich Ankunft zu Hause das Musikstreaming oder der Lieblingsfernsehsender in der Küche starten
-*	Jalousien und Vorhänge öffnen und schließen nach Sonnenstand und Belegung des Hauses
+* Jalousien und Vorhänge öffnen und schließen nach Sonnenstand und Belegung des Hauses
 * die Heizung schaltet automatisch ab, wenn alle morgens zur Arbeit gehen
-*	das Energiemanagementsystem überwacht kontinuierlich die aktuelle Energieproduktion der Solarmodule
-*	der Energieverbrauch des gesamten Hauses wird Schaltung für Schaltung gemessen
-*	die Rasenbewässerung reagiert auf Wetterbedingungen
+* das Energiemanagementsystem überwacht kontinuierlich die aktuelle Energieproduktion der Solarmodule
+* der Energieverbrauch des gesamten Hauses wird Schaltung für Schaltung gemessen
+* die Rasenbewässerung reagiert auf Wetterbedingungen
 * der Mähroboter pausiert an Wochenenden, Feiertagen oder bei Unwetter
 
 
